@@ -1,0 +1,22 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="LessThanHtmlNotDisplayingRepro.MainPage">
+
+    <ScrollView>
+        <VerticalStackLayout
+            Padding="30,0"
+            Spacing="25">
+            <Label x:Name="InvalidLabel1" TextType="Html" />
+            <Label x:Name="InvalidLabel2" TextType="Html" />
+            <Label x:Name="ValidLabel1" TextType="Html" />
+            <Label x:Name="ValidLabel2" TextType="Html" />
+            <Label x:Name="ValidLabel3" TextType="Html" />
+            <Label x:Name="ValidLabel4" TextType="Html" />
+            <Label x:Name="ValidLabel5" TextType="Html" />
+            <Label x:Name="ValidLabel6" TextType="Html" />
+            <Label x:Name="ValidLabel7" TextType="Html" />
+        </VerticalStackLayout>
+    </ScrollView>
+
+</ContentPage>

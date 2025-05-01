@@ -1,0 +1,10 @@
+﻿using Foundation;
+
+namespace LessThanHtmlNotDisplayingRepro
+{
+    [Register("AppDelegate")]
+    public class AppDelegate : MauiUIApplicationDelegate
+    {
+        protected override MauiApp CreateMauiApp() => MauiProgram.CreateMauiApp();
+    }
+}
