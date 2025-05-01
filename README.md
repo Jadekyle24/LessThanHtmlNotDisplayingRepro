@@ -1,0 +1,1 @@
+This repository is a repro case where, in a Maui application, a `Label` with the TextType being set to `Html` does not properly display Html encoded less than characters (`<` or the encoded value `&lt;`).
